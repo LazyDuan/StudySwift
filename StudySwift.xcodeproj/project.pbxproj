@@ -14,11 +14,11 @@
 		DCCDC4EE2661142700DA9011 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCDC4EC2661142700DA9011 /* AppDelegate.swift */; };
 		DCCDC4EF2661142700DA9011 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCDC4ED2661142700DA9011 /* SceneDelegate.swift */; };
 		DCCDC4F82661143700DA9011 /* Router.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCCDC4F72661143700DA9011 /* Router.plist */; };
-		DCCDC5032661145100DA9011 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCDC4FE2661145100DA9011 /* ViewController.swift */; };
-		DCCDC5042661145100DA9011 /* FirstDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCDC4FF2661145100DA9011 /* FirstDayViewController.swift */; };
-		DCCDC5052661145100DA9011 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCDC5002661145100DA9011 /* Person.swift */; };
-		DCCDC5062661145100DA9011 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCDC5012661145100DA9011 /* HttpRequest.swift */; };
-		DCCDC5072661145100DA9011 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCDC5022661145100DA9011 /* User.swift */; };
+		DCCDC51626611C4200DA9011 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCDC51426611C4200DA9011 /* Person.swift */; };
+		DCCDC51726611C4200DA9011 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCDC51526611C4200DA9011 /* User.swift */; };
+		DCCDC51E26611C6000DA9011 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCDC51B26611C6000DA9011 /* ViewController.swift */; };
+		DCCDC51F26611C6000DA9011 /* FirstDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCDC51D26611C6000DA9011 /* FirstDayViewController.swift */; };
+		DCCDC52426611C7D00DA9011 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCDC52326611C7C00DA9011 /* HttpRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,11 +52,11 @@
 		DCCDC4EC2661142700DA9011 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCCDC4ED2661142700DA9011 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DCCDC4F72661143700DA9011 /* Router.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Router.plist; sourceTree = "<group>"; };
-		DCCDC4FE2661145100DA9011 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DCCDC4FF2661145100DA9011 /* FirstDayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstDayViewController.swift; sourceTree = "<group>"; };
-		DCCDC5002661145100DA9011 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
-		DCCDC5012661145100DA9011 /* HttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
-		DCCDC5022661145100DA9011 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DCCDC51426611C4200DA9011 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		DCCDC51526611C4200DA9011 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DCCDC51B26611C6000DA9011 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCCDC51D26611C6000DA9011 /* FirstDayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstDayViewController.swift; sourceTree = "<group>"; };
+		DCCDC52326611C7C00DA9011 /* HttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,13 +163,69 @@
 		DCCDC4FD2661145100DA9011 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				DCCDC4FE2661145100DA9011 /* ViewController.swift */,
-				DCCDC4FF2661145100DA9011 /* FirstDayViewController.swift */,
-				DCCDC5002661145100DA9011 /* Person.swift */,
-				DCCDC5012661145100DA9011 /* HttpRequest.swift */,
-				DCCDC5022661145100DA9011 /* User.swift */,
+				DCCDC5102661199500DA9011 /* Interface */,
+				DCCDC51326611C4200DA9011 /* Model */,
+				DCCDC51226611A0A00DA9011 /* Practice */,
+				DCCDC5112661199C00DA9011 /* BaseType */,
+				DCCDC50F2661198C00DA9011 /* Tools */,
+				DCCDC50E2661198400DA9011 /* Widget */,
 			);
 			path = Class;
+			sourceTree = "<group>";
+		};
+		DCCDC50E2661198400DA9011 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		DCCDC50F2661198C00DA9011 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				DCCDC52326611C7C00DA9011 /* HttpRequest.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		DCCDC5102661199500DA9011 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				DCCDC51C26611C6000DA9011 /* UITableView */,
+				DCCDC51B26611C6000DA9011 /* ViewController.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		DCCDC5112661199C00DA9011 /* BaseType */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseType;
+			sourceTree = "<group>";
+		};
+		DCCDC51226611A0A00DA9011 /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Practice;
+			sourceTree = "<group>";
+		};
+		DCCDC51326611C4200DA9011 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DCCDC51426611C4200DA9011 /* Person.swift */,
+				DCCDC51526611C4200DA9011 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DCCDC51C26611C6000DA9011 /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				DCCDC51D26611C6000DA9011 /* FirstDayViewController.swift */,
+			);
+			path = UITableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,13 +358,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCCDC5052661145100DA9011 /* Person.swift in Sources */,
-				DCCDC5042661145100DA9011 /* FirstDayViewController.swift in Sources */,
-				DCCDC5032661145100DA9011 /* ViewController.swift in Sources */,
+				DCCDC51E26611C6000DA9011 /* ViewController.swift in Sources */,
+				DCCDC51726611C4200DA9011 /* User.swift in Sources */,
+				DCCDC51626611C4200DA9011 /* Person.swift in Sources */,
 				DCCDC4EE2661142700DA9011 /* AppDelegate.swift in Sources */,
+				DCCDC51F26611C6000DA9011 /* FirstDayViewController.swift in Sources */,
+				DCCDC52426611C7D00DA9011 /* HttpRequest.swift in Sources */,
 				DCCDC4EF2661142700DA9011 /* SceneDelegate.swift in Sources */,
-				DCCDC5062661145100DA9011 /* HttpRequest.swift in Sources */,
-				DCCDC5072661145100DA9011 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
